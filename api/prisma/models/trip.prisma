@@ -1,0 +1,14 @@
+model Trip {
+    id          String   @id @default(uuid())
+    destination String
+    startsAt    DateTime @map("starts_at")
+    endsAt      DateTime @map("ends_at")
+    isConfirmed Boolean  @default(false) @map("is_confirmed")
+    createdAt   DateTime @default(now()) @map("created_at")
+
+    participants Participant[]
+    activities   Activity[]
+    links        Link[]
+
+    @@map("trips")
+}
