@@ -52,10 +52,4 @@ Este projeto utiliza o que há de mais moderno no ecossistema JavaScript/TypeScr
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença ISC. Veja o arquivo `package.json` para mais detalhes.
-
----
-
 Feito com 💜 por Alex Fernando durante o NLW Journey.
